@@ -13,9 +13,11 @@ while i >= 100:
         if str(product) == str(product)[::-1]:
             if result < product:
                 result = product
+                prod1 = i
+                prod2 = j
         j = j-1
     j=999
     i = i-1
 
-print(result)
+print(result, "=",prod1,"*", prod2)
 
